@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrichterIHII</title>
+    <link rel="stylesheet" href="/main-632ce84784d98151.css" integrity="sha384-n8kwjFo1HrvKGKRyQrArh545xM+eY26ccmRL5zR8ASlM0aICeAJ8+MnaQvFiHmow"/>
+<link rel="modulepreload" href="/TrichterIHII_github_io-a46dacc1275cf5aa.js" crossorigin="anonymous" integrity="sha384-lERGWQICmzDFsFa5AzhvGsnydnilM8igVIT454Rjt19VfaX+V5bmPiMxLMHCv6Qh"><link rel="preload" href="/TrichterIHII_github_io-a46dacc1275cf5aa_bg.wasm" crossorigin="anonymous" integrity="sha384-ySHqo5pskqT6dzNuT8g40lnlev1vzYVDNmmoBweI8HIPN3auo2+T1XDV1TGq7wcC" as="fetch" type="application/wasm"></head>
+<body>
+    
+<script type="module">
+import init, * as bindings from '/TrichterIHII_github_io-a46dacc1275cf5aa.js';
+const wasm = await init({ module_or_path: '/TrichterIHII_github_io-a46dacc1275cf5aa_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+</body>
+</html>
