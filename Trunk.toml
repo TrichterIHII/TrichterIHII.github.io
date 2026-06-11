@@ -1,2 +1,3 @@
 [build]
 target = "public/index.html"
+public_url = "/"

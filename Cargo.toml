@@ -8,4 +8,5 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 leptos = { version = "0.7", features = ["csr"] }
+leptos_router = { version = "0.7" }
 wasm-bindgen = "0.2"
